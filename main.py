@@ -3,7 +3,6 @@ import math
 
 pygame.init()
 
-# Constants
 WIDTH, HEIGHT = 800, 600
 FPS = 60
 PADDLE_WIDTH, PADDLE_HEIGHT = 100, 15
@@ -11,7 +10,6 @@ BALL_RADIUS = 10
 BRICK_ROWS, BRICK_COLS = 3, 10
 LIVES_FONT = pygame.font.SysFont("comicsans", 40)
 
-# Colors
 BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
